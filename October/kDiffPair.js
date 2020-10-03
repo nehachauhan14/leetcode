@@ -38,8 +38,6 @@ var findPairsHashMap = function(nums, k) {
         }
     });
 
-    console.log("Map", map);
-
     for(let el in map) {
         if(k == 0) {
             if(map[el] > 1) {
